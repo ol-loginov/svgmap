@@ -1,1 +1,7 @@
-# svgmap
+# SVGMap
+
+To run:
+
+```shell
+# npm start
+```
