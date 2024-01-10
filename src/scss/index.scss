@@ -1,6 +1,17 @@
+@import "primevue/resources/themes/md-dark-indigo/theme.css";
+@import "primeicons/primeicons.css";
+
+@import "theme";
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    margin: auto;
-    max-width: 38rem;
-    padding: 2rem;
+	font-family: var(--body-font);
+	background: var(--body-background);
+
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	width: 100vw;
+	height: 100vh;
 }

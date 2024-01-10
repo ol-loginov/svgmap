@@ -1,8 +1,9 @@
 <template>
-  <h1>💖 Hello World!</h1>
-  <p>Welcome to your Electron application.</p>
+  <div id="toolbar">
+    <Button type="button" @click="$emit('togglePoint')">P</Button>
+  </div>
+  <div id="canvas"></div>
 </template>
 
 <script setup>
-console.log('👋 This message is being logged by "App.vue", included via Vite');
 </script>
